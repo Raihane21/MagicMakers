@@ -1,0 +1,39 @@
+<template name="forum">
+<div class="fond-orange marge-du-bas-tres">
+<div class="rectangle-haut ">
+
+  <button class="button is-danger marge-gauche-tres marge-du-haut">Menu</button>
+  <div class="grostitre blanc marge-cote-gauche marge-du-bas">
+Nom du site/logo
+  </div>
+</div>
+
+ <h1  class="grostitre marge-cote-gauche">
+     <br>
+     <br>
+ Bienvenue sur le forum.
+ </h1>
+ <p class="marge-cote-gauche">Si vous avez la moindre question n'hésiter pas à la poser et un autre utilisateur se fera un plaisir de vous répondre.
+</p> 
+
+ <br><br><br><br><br><br><br>
+<div class="marge-cote-gauche marge-cote-droit box ">
+ <label for="site-search">Question :</label>
+ <input type="search" id="recherche question" name="q">
+ <br>
+ <div class="marge-du-haut">
+      <button class="button is-success">Rechercher</button> </div>
+    </div>
+
+<br>
+<div class="marge-cote-gauche marge-cote-droit box ">
+Questions les plus courantes
+<br>
+<button class="info">exemple</button>
+{{> Template.dynamic template=currentPage}}
+
+</div>
+<br>
+
+</div>
+</template>
