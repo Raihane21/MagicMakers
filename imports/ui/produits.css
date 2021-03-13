@@ -4,5 +4,5 @@
     background-color: orange;
 }
 .container {
-    flex-direction:  column ;
-  }
+  display: flex; /* or inline-flex */
+}
