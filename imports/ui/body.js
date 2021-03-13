@@ -9,7 +9,7 @@ import "./profil.js";
 
 
 //redirections vers les autre pages
-Session.set('site', 'forum');
+Session.set('site', 'accueil');
 
 Template.body.events({
     'click .aller-vers-profil'(event){
@@ -24,6 +24,15 @@ Template.body.events({
     'click .aller-vers-accueil'(event){
         Session.set('site', 'accueil');
     }});
+Template.body.events({
+    'click .aller-vers-produits'(event){
+        Session.set('site', 'produits');
+    }});
+
+Template.body.events({
+    'click .aller-vers-forum'(event){
+        Session.set('site', 'forum');
+    }});   
 
 Template.body.helpers({
 
