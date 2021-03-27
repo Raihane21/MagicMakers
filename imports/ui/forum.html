@@ -34,8 +34,16 @@
   <br>
   <button class="info button is-outlined is-small">Nouveau message</button>
   {{> Template.dynamic template=currentPage}}
-  
+  {{#each Commentaires}}
+    {{>Commentaire}}
+  {{/each}}
+  <template name="commentaire">
+    <li>{{text}}</li>
+
+  </template>
   </div>
+  <br>
+ 
   <br>
   
   </div>
