@@ -14,25 +14,16 @@ Session.set('site', 'accueil');
 Template.body.events({
     'click .aller-vers-profil'(event){
         Session.set('site', 'profil');
-    }});
-
-Template.body.events({
+    },
     'click .aller-vers-accueil'(event){
         Session.set('site', 'accueil');
-    }});
-Template.body.events({
-    'click .aller-vers-accueil'(event){
-        Session.set('site', 'accueil');
-    }});
-Template.body.events({
+    },
     'click .aller-vers-produits'(event){
         Session.set('site', 'produits');
-    }});
-
-Template.body.events({
+    },
     'click .aller-vers-forum'(event){
         Session.set('site', 'forum');
-    }});   
+}});   
 
 Template.body.helpers({
 
