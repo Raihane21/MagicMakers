@@ -1,0 +1,15 @@
+.fond {
+    width: 1480px;
+    height:100px;
+    background:rgb(56, 56, 56);
+}
+.button2 {
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+
+}
+.fond2{
+    background-color: orange;
+    height:1000px;
+}
