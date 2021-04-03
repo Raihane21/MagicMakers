@@ -14,8 +14,8 @@ Template.body.events({
         console.log(target)
         var text = target.com.value;
         console.log(text)
-        var reponses = [reponse];
-        var reponse = {username};
+       // var reponses = [reponse];
+        //var reponse = {username};
         
 
         //on insert les informations dans la base de donnée

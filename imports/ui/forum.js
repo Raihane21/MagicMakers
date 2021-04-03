@@ -4,6 +4,7 @@ import { Template } from 'meteor/templating';
 import './forum.html';
 import './forum.css';
 import './poste-forum.js';
+import { Commentaires } from '../bdd/Commentaires.js' 
 
 Session.set('page', 'rien');    
 Template.forum.events({
@@ -24,4 +25,11 @@ Template.forum.events({
         //template dynamique
         currentPage: function(page){
             return Session.get('page');
-}});
+
+},
+    //récupères les annonces et les renvoies
+    commentaires: function(){
+        return Commentaires.find({},{});
+    }
+});
+
