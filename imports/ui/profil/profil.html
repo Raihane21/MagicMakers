@@ -1,0 +1,19 @@
+<template name="profil">
+    <div class=fond2>
+        <div class=fond>
+            <div class="button2"><button class="aller-vers-accueil button is-outlined"> NOM du Site</button>
+            <button class="conex button is-outlined">{{> loginButtons}}</button></div>
+        </div>
+        <div><button class="aller-vers-produits button "> produits</button></div>
+        {{#if currentUser}}
+        <div><button class="aller-vers-forum button is-outlined">forum</button></div>
+        <div>  
+            <h4 class="text">Cherchez mes produit</h4>
+            <input type="text"> 
+            <button> chercher</button>
+        </div>
+        
+        {{/if}}
+    </div>
+    
+</template>

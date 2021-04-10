@@ -1,15 +1,16 @@
 .fond {
-    width: 1480px;
+    width: 100%;
     height:100px;
     background:rgb(56, 56, 56);
 }
 .button2 {
     display:flex;
     flex-direction: row;
-    justify-content:space-between;
+    justify-content:center;
 
 }
 .fond2{
     background-color: orange;
     height:1000px;
 }
+
