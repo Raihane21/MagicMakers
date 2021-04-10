@@ -1,0 +1,22 @@
+
+  .fond-orange {
+
+    background-color: orange;
+}
+.container {
+  display: flex; /* or inline-flex */
+}
+.item {
+  order: 5; /* default is 0 */
+}
+.parent { 
+  display: flex; 
+flex-direction: row;      
+justify-content: space-evenly;
+flex-wrap: wrap;
+}                       
+.enfant {
+  width: 300px;
+height: 200px;
+border: solid black 4px;
+} 

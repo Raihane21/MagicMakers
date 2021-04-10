@@ -1,0 +1,67 @@
+.grostitre {
+    
+    font-size: 50px;
+    
+    }
+    
+    .marge-du-haut {
+    
+        margin-top: 30px;
+    }
+    
+    .fond-orange {
+    
+        background-color: orange;
+    }
+    
+    .marge-cote-gauche {
+    
+        margin-left: 50px;
+    }
+    
+    .marge-cote-droit {
+    
+        margin-right: 400px;
+    }
+    
+    .blanc {
+    
+        color: rgb(241, 239, 239);
+    }
+    
+    .marge-du-bas {
+    
+        margin-bottom: 30px;
+    }
+    
+    .rectangle-haut {
+    
+            width: 1480px;
+            height:200px;
+            background:rgb(56, 56, 56);
+    }
+    
+    .marge-gauche-tres {
+    
+        margin-left: 1300px;
+    }
+    
+    .marge-haut-peu {
+    
+        margin-top: 40px;
+    }
+    
+    .marge-du-haut-2 {
+    
+        margin-top: 50px;
+    }
+    
+    .marge-du-bas-tres {
+    
+        margin-bottom: 50px;
+    }
+    
+    .container {
+        display: flex; 
+        
+      }
