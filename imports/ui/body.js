@@ -5,7 +5,7 @@ import './body.html';
 import './forum.js';
 import "./accueil.js";
 import "./produits.js";
-import "./profil.js";
+import "./profil/profil.js";
 
 
 //redirections vers les autre pages
