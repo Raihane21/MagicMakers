@@ -4,8 +4,8 @@ import { Commentaires } from '../bdd/Commentaires.js'
 import './body.html';
 import './Forum/forum.js';
 import "./Accueil/accueil.js";
-import "./produits.js";
-import "./profil/profil.js";
+import "./Produits/produits.js";
+import "./Profil/profil.js";
 
 
 //redirections vers les autre pages
