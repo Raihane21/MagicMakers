@@ -3,7 +3,7 @@ import { Template } from 'meteor/templating';
 import { Commentaires } from '../bdd/Commentaires.js'
 import './body.html';
 import './forum.js';
-import "./accueil.js";
+import "./Accueil/accueil.js";
 import "./produits.js";
 import "./profil.js";
 
