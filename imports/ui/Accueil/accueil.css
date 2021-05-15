@@ -1,0 +1,15 @@
+.container {
+  display: flex; 
+  flex-direction: column; 
+  width: 350px;  
+  Margin-left: 0px;
+ justify-content: center; 
+} 
+
+.truc {
+  display: flex; 
+  flex-direction: column; 
+  width: 350px; 
+  Margin-left: 0px; 
+  justify-content: center; 
+}
