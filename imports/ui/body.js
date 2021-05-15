@@ -4,8 +4,9 @@ import { Commentaires } from '../bdd/Commentaires.js'
 import './body.html';
 import './Forum/forum.js';
 import "./accueil.js";
-import "./produits.js";
+import "./Produits/produits.js";
 import "./profil.js";
+import { produits } from '../bdd/produits.js';
 
 
 //redirections vers les autre pages
