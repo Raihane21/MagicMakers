@@ -1,0 +1,10 @@
+<template name="commentaire">
+    <li>{{text}}</li>
+    <form id="repondre">
+    <input type="texte">
+    </form>
+  
+    {{#each reponses}}
+      <li>{{this.texte}}</li>
+    {{/each}}
+  </template>

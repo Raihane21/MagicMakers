@@ -4,6 +4,7 @@ import { Template } from 'meteor/templating';
 import './forum.html';
 import './forum.css';
 import './poste-forum.js';
+import './commentaire.js';
 import { Commentaires } from '../../bdd/Commentaires.js' 
 
 Session.set('page', 'rien');    

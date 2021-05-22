@@ -14,13 +14,14 @@ Template.body.events({
         console.log(target)
         var text = target.com.value;
         console.log(text)
-       // var reponses = [reponse];
+        var reponses = [];
         //var reponse = {username};
         
 
         //on insert les informations dans la base de donnée
         Commentaires.insert({
             text,
+            reponses,
             
         });
     },
