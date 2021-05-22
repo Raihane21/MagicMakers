@@ -4,7 +4,7 @@ import { Template } from 'meteor/templating';
 import './produits.html';
 import './produits.css' ;
 import './produit.js'
-import { produits } from '../bdd/produits.js';
+import { produits } from '../../bdd/produits.js';
 
 Template.produits.events({
     //envoyer une nouvelle annonce en appuyant sur la touche entrée
