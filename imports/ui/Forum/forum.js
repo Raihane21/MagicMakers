@@ -5,6 +5,7 @@ import './forum.html';
 import './forum.css';
 import './poste-forum.js';
 import './commentaire.js';
+import './avis.js';
 import { Commentaires } from '../../bdd/Commentaires.js' 
 
 Session.set('page', 'rien');    
@@ -16,8 +17,12 @@ Template.forum.events({
 
 Template.forum.events({
     'click .retour'(event){
-        Session.set('page', 'rien');
-    }});
+        Session.set('page', 'rien');},
+    'click .avis'(event){
+         Session.set('page', 'avis');
+        },
+    });
+
     
 
 
