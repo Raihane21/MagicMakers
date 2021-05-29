@@ -11,7 +11,7 @@ Template.commentaire.events({
         var newreponses = this.reponses;
         console.log(this.reponses)
         console.log("test")
-        newreponses.push({ test: "truc"})
+        newreponses.push({ test: event.target.reponse.value})
         
         Commentaires.update(this._id, { $set: { reponses: newreponses }});
     },

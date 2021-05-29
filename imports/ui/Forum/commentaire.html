@@ -1,11 +1,13 @@
 <template name="commentaire">
     <li>{{text}}</li>
     <form class="repondre">
-    <input type="texte">
+    <input type="texte" id="reponse">
     </form>
   
     {{#each reponses}}
-      <li>{{this.texte}}</li>
+      <li>{{this.test}}</li>
     {{/each}}
-    <button class="remove button is-text">delete</button>
+    <br>
+    
+    <button class="remove delete">delete</button>
   </template>
