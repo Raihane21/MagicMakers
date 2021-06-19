@@ -1,37 +1,11 @@
 <template name="produits">
-  {{> loginButtons}}
-  <form id="monformulaire"> <input id="titre" type="text"><textarea name="" id="desc" ></textarea></form>
- <div class="fond-orange marge-du-bas-tres"></div>
-    <h1 class="title is-1"> Produits</h1>
-<div>  
-    <h4 class="text">Cherchez un produit</h4>
-    <input type="text"> 
-</div>
-<div> <button> Menu </button></div>
 <div class="parent">
-  {{>produit}}
-  {{>produit}}
-  {{>produit}}
-  {{>produit}}
-  {{>produit}}
-  {{>produit}}
-  {{>produit}}
-  {{>produit}}
-  {{>produit}}
-  {{>produit}}
-  {{>produit}}
-  {{>produit}}
-  {{>produit}}
-  {{>produit}}
-  {{>produit}}
+  {{#each mesproduits}}
+    {{>produit}}
+  {{/each}}
 
 
 </div>
-  <br>
-  <button class="aller-vers-profil button is-outlined ">Profil</button>
-  <button class="aller-vers-accueil button is-outlined ">Accueil</button>
-  <button class="aller-vers-forum button is-outlined  ">Forum</button>
-<br>
 <nav class="pagination is-small" role="navigation" aria-label="pagination">
   <a class="pagination-previous">Previous</a>
   <a class="pagination-next">Next page</a>

@@ -5,6 +5,7 @@ import './body.html';
 import './Forum/forum.js';
 import "./Accueil/accueil.js";
 import "./Produits/produits.js";
+import "./Produits/produitspage.js";
 import "./Profil/profil.js";
 import { produits } from '../bdd/produits.js';
 
@@ -19,7 +20,7 @@ Template.body.events({
         Session.set('site', 'accueil');
     },
     'click .aller-vers-produits'(event){
-        Session.set('site', 'produits');
+        Session.set('site', 'produitspage');
     },
     'click .aller-vers-forum'(event){
         Session.set('site', 'forum');
