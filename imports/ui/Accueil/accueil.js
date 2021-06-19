@@ -16,8 +16,8 @@ Template.accueil.events({
 }});   
 
 Template.accueil.helpers({
-
-//template dynamique
-menuonoff: function(menu){
-    return Session.get('menu');
-}});
+    //template dynamique
+    menuonoff: function(menu){
+        return Session.get('menu');
+    },
+});

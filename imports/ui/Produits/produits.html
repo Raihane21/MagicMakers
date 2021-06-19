@@ -1,7 +1,7 @@
 <template name="produits">
 <div class="parent">
   {{#each mesproduits}}
-    {{>produit}}
+    {{>produit produit=this mode=candelete}}
   {{/each}}
 
 
