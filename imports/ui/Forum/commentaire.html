@@ -1,13 +1,6 @@
 <template name="commentaire">
-    <li>{{text}}</li>
-    <form class="repondre">
-    <input type="texte" id="reponse">
-    </form>
+  <li>{{text}}</li>
   
-    {{#each reponses}}
-      <li>{{this.test}}</li>
-    {{/each}}
-    <br>
-    
-    <button class="remove delete">delete</button>
-  </template>
+  <button class="open">open</button>
+  <button class="remove delete">delete</button>
+</template>
