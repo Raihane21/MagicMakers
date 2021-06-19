@@ -1,15 +1,39 @@
-.container {
+.machintrucbidule {
   display: flex; 
   flex-direction: column; 
-  width: 350px;  
+  width: 10%;  
   Margin-left: 0px;
- justify-content: center; 
+  justify-content: space-between; 
+  align-content: flex-end 
 } 
 
 .truc {
   display: flex; 
   flex-direction: column; 
   width: 350px; 
-  Margin-left: 0px; 
+  Margin-left: 15%; 
   justify-content: center; 
+}
+
+.machinbidule {
+display: flex; 
+flex-direction: row; 
+width: 100%;
+Margin-left: 0px; 
+justify-content: space-between;
+} 
+
+.trucbidule {
+  display: flex;
+  flex-direction: column; 
+  width: 80%; 
+  align-items: center; 
+}
+
+.jesaispas {
+  width: 10% 
+}
+
+.plusdidee {
+  width: 70% 
 }

@@ -1,37 +1,50 @@
 <template name="accueil">
 
-    <div class= "container"> 
-<button class="aller-vers-profil button is-danger is-outlined">Appuie ici pour te rendre sur la page profil</button>
-<button class="aller-vers-produits button is-link is-outlined">Appuie ici pour te rendre sur la page produits</button>
-<button class="aller-vers-forum button is-info is-outlined">Appuie ici pour te rendre sur la page forum</button>
+  <div class="machinbidule">
+
+    <div class= "machintrucbidule"> 
+      <button class="afficher-le-menu button is-warning">Menu </button>
+   {{> Template.dynamic template=menuonoff}}
     </div>
 
-    
-  <h1 class="title is-1">Nom du site </h1>
+    <div class="trucbidule">
+  <h1 class="title is-1 plusdidee">Nom du site, le site n°1 pour trouver tes produits gratuitement et rapidement </h1>
+<h2 class="bidule">Bonjour à toi, cher utilisateur de ...(nom du site), tu es sur le site n°1 pour trouver des produits. Merci d'utiliser notre site ça nous fait plaisir. Tu es ici sur la page d'accueil. Tu y trouveras une barre de recherche pour chercher n'importe quel produit qui t'intéresse ainsi qu'un menu comprenant une page profil, où tu peux t'inscrire GRATUITEMENT, des pages produits avec la localisation, la description, le lieu de production et beaucoup d'autres informations sur les produits que tu recherches. Mais ce n'est pas tout, il y a également un forum où tu pourras discuter avec d'autres utilisateurs, pour voir si vous avez un produit en commun dont vous pourriez discuter mais tu verras également le nombre de points obtenus par la personne. Tu obtiens un point dès que tu aides quelqu'un dans le forum.</h2>
 
 <nav class="truc">
-    <!-- Left side -->
-    <div class="level-left">
-      <div class="level-item">
-        <p class="subtitle is-5">
+  <!-- Left side -->
+  <div class="level-left">
+    <div class="level-item">
+      <p class="subtitle is-5">
+      </p>
+    
+    </div>
+    <div class="level-item">
+      <div class="field has-addons">
+        <p class="control">
+          <input class="input" type="text" placeholder="Nom du produit">
         </p>
-      
-      </div>
-      <div class="level-item">
-        <div class="field has-addons">
-          <p class="control">
-            <input class="input" type="text" placeholder="Nom du produit">
-          </p>
-          <p class="control">
-            <button class="button">
-              Rechercher
-            </button>
-          </p>
-        </div>
+        <p class="control">
+          <button class="button">
+            Rechercher
+          </button>
+        </p>
       </div>
     </div>
+  </div>
 
-  </nav>
+</nav>
+
+
+</div>
+
+<div class="jesaispas">
+ 
+</div>
+
+</div>
+
+{{> produits}}
   
 </template>
   

@@ -8,17 +8,20 @@ import { produits } from '../../bdd/produits.js';
 
 Template.produits.events({
     //envoyer une nouvelle annonce en appuyant sur la touche entrée
-    'submit .new-annonce'(event) {
+    'submit #monformulaire'(event) {
         event.preventDefault();
 
         //on récupère les informations nécessaires
         var target = event.target;
-        var text = target.text.value;
+        var titre = target.titre.value;
+        console.log(titre)
+        var description = target.description.value
+        console.log(description)
         var date = new Date();
-
+    
         //on insert les informations dans la base de donnée
         produits.insert({
-            text,
+            titre, description,
             createdAt: date,
            
         });
